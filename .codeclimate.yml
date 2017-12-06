@@ -9,3 +9,5 @@ engines:
       languages:
         go:
           mass_threshold: 30
+exclude_patterns:
+  - "*_tests.go"
