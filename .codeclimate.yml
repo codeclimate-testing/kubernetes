@@ -11,4 +11,4 @@ engines:
           mass_threshold: 30
 exclude_patterns:
   - "*_tests.go"
-  - "../vendor/"
+  - "vendor/"
