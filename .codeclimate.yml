@@ -8,6 +8,7 @@ engines:
         go:
           mass_threshold: 30
 exclude_paths:
+- "**/*_test.go"
 - config/
 - db/
 - dist/
