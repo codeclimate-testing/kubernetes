@@ -1,14 +1,21 @@
 engines:
   structure:
     enabled: true
-    channel: "go-beta"
   duplication:
     enabled: true
-    channel: go-beta
     config:
       languages:
         go:
           mass_threshold: 30
-exclude_patterns:
-  - "*_tests.go"
-  - "vendor/"
+exclude_paths:
+- config/
+- db/
+- dist/
+- features/
+- "**/node_modules/"
+- script/
+- "**/spec/"
+- "**/test/"
+- "**/tests/"
+- "**/vendor/"
+- "**/*.d.ts"
