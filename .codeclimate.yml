@@ -8,6 +8,9 @@ engines:
         go:
           mass_threshold: 30
 exclude_paths:
+- plugin/
+- staging/
+- third_party/
 - "**/*_test.go"
 - config/
 - db/
